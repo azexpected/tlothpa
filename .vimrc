@@ -102,6 +102,9 @@ let g:NERDCommentEmptyLines = 1
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
 
+" 숨김 파일 보이기"
+let NERDTreeShowHidden=1
+
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --ignore={*.sln,*.ppm,*.jpg,*.suo,*.sln,*.ktx,*.git} --ignore-dir={External,Doc,temp,Data,Debug,Release,ipch} --nocolor -g ""' 
