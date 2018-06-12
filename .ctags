@@ -1,0 +1,14 @@
+--recurse=yes
+--tag-relative=yes
+--exclude=.git
+--exclude=External
+--exclude=Doc
+--exclude=temp
+--exclude=Data
+--exclude=Debug
+--exclude=Release
+--exclude=ipch
+--exclude=.suo
+--exclude=.ppm
+--exclude=.jpb
+--exclude=.ktx
