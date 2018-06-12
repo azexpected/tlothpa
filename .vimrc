@@ -61,6 +61,7 @@ let g:airline#extensions#tabline#show_buffer=1
 let g:airline#extensions#tabline#show_tabs=1
 let g:airline#extensions#tabline#tab_nr_type=1
 "let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline#extensions#tabline#fnamemod=':t' " 파일이름만출력
 
 let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf=0
