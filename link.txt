@@ -1,0 +1,1 @@
+http://vim.wikia.com/wiki/Launch_files_in_new_tabs_under_Windows
